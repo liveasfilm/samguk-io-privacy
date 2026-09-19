@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>삼국.io 개인정보처리방침 · samguk.io Privacy Policy</title>
-<meta name="description" content="삼국.io(samguk.io) 개인정보처리방침 — 개발자는 개인정보를 직접 수집하지 않으며, 광고(Google AdMob)와 인앱결제에서 처리되는 정보를 안내합니다.">
+<meta name="description" content="삼국.io(samguk.io) 개인정보처리방침 — 개발자는 식별 가능한 개인정보를 수집하지 않으며, 광고(Google AdMob)·인앱결제·익명 이용 통계(Firebase Analytics)에서 처리되는 정보를 안내합니다.">
 <style>
   :root{
     --bg:#111014;
@@ -71,7 +71,7 @@
 <header>
   <div class="seal">三國</div>
   <h1>삼국.io 개인정보처리방침<br><span style="font-weight:500;font-size:19px;color:var(--muted)">samguk.io Privacy Policy</span></h1>
-  <p class="sub">최종 수정일 / Last updated: 2026-09-07 · <a href="https://liveasfilm.github.io/samguk/">삼국.io 홈 / Game site</a></p>
+  <p class="sub">최종 수정일 / Last updated: 2026-09-19 · <a href="https://liveasfilm.github.io/samguk/">삼국.io 홈 / Game site</a></p>
   <nav role="tablist" aria-label="Language">
     <button role="tab" data-lang="ko" aria-selected="true">한국어</button>
     <button role="tab" data-lang="en" aria-selected="false">English</button>
@@ -91,8 +91,10 @@
   </div>
 
   <h2>요약</h2>
-  <p><strong>개발자는 이용자의 개인정보를 직접 수집하지 않습니다.</strong> 계정 가입이 없고, 개발자가 운영하는 서버도 없으며, 게임 진행 데이터는 이용자의 기기 안에만 남습니다.</p>
+  <p><strong>개발자는 이름·이메일·연락처처럼 이용자를 식별할 수 있는 개인정보를 수집하지 않습니다.</strong> 계정 가입이 없고, 개발자가 운영하는 서버도 없으며, 세이브 데이터는 이용자의 기기 안에만 남습니다.</p>
   <p>다만 버전 1.3.0부터 <strong>광고(Google AdMob)와 인앱결제</strong>가 포함됩니다. 광고를 표시하는 과정에서 Google이 광고 식별자와 기기 정보를 처리하고, 결제는 Apple 또는 Google이 처리합니다. 자세한 내용은 4절과 5절에 있습니다.</p>
+
+  <p>버전 1.5.0부터는 게임 밸런스를 다듬기 위해 <strong>익명 이용 통계(Google Analytics for Firebase)</strong>가 수집됩니다. 무작위 앱 인스턴스 ID에만 연결되며 이름이나 계정과 연결되지 않습니다. 자세한 내용은 1절에 있습니다.</p>
 
   <h2>1. 수집하는 개인정보</h2>
   <p>개발자는 이름, 이메일, 전화번호, 연락처, 사진, 통화 기록 등 어떠한 개인정보도 수집하지 않습니다. 회원가입·로그인 절차가 없고, 개인정보 입력을 요구하는 화면이 없으며, 개발자가 운영하는 수집 서버도 존재하지 않습니다.</p>
@@ -104,6 +106,15 @@
     <li><strong>광고 상호작용 기록</strong> — 노출·클릭·시청 완료 여부</li>
   </ul>
 
+  <p><strong>익명 이용 통계 (버전 1.5.0부터)</strong> — 난이도와 보상을 조정하기 위해 아래 정보가 <strong>Google Analytics for Firebase</strong>를 통해 수집됩니다. 이 통계는 무작위로 생성된 앱 인스턴스 ID에만 연결되고 이름·이메일·계정과 연결되지 않으므로, 개발자는 개별 이용자가 누구인지 알 수 없습니다. 개발자는 이 통계를 판매하지 않으며 맞춤 광고에 사용하지 않습니다.</p>
+  <ul>
+    <li><strong>게임 이벤트</strong> — 출전·승패, 판 길이, 격파 수, 고른 장수와 전장, 포기·재출전 여부, 이어가기 선택</li>
+    <li><strong>진행도 요약</strong> — 탈환 구역 수, 통일 회차, 해금 장수 수, 훈련도, 플레이 횟수 구간</li>
+    <li><strong>상점·광고 이용</strong> — 상점 열람, 구매 시작·완료·취소 여부(결제 수단 정보는 포함되지 않습니다), 광고 시청 완료 여부</li>
+    <li><strong>기기 및 앱 정보</strong> — 기기 모델, 운영체제 버전, 언어·지역 설정, 앱 버전, IP 주소에서 추정한 대략적 지역, 앱 인스턴스 ID. Android에서는 광고 ID가 함께 처리될 수 있습니다.</li>
+  </ul>
+  <p>Google의 처리 방식은 <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase의 개인정보 보호 및 보안</a>에서 확인할 수 있습니다.</p>
+
   <h2>2. 기기 내 저장 정보</h2>
   <p>다음 정보는 이용자 기기의 앱 전용 저장 영역에만 기록되며, 개발자에게 전송되지 않습니다.</p>
   <ul>
@@ -113,10 +124,10 @@
     <li>사운드·조작 등 게임 설정 값</li>
     <li>원보 잔액, 구매한 상품의 권리(광고 제거 등), 전면 광고 노출 간격을 세기 위한 세션 횟수</li>
   </ul>
-  <p>이 정보는 개발자를 포함한 제3자가 접근할 수 없으며, 이용자 본인을 식별하는 데 사용될 수 없습니다.</p>
+  <p>이 저장 데이터 자체는 기기 밖으로 전송되지 않으며, 이용자 본인을 식별하는 데 사용될 수 없습니다. 다만 1절의 익명 이용 통계에는 진행도를 요약한 수치(탈환 구역 수 등)가 포함됩니다.</p>
 
   <h2>3. 네트워크 및 권한</h2>
-  <p>버전 1.3.0부터 광고를 받아 오고 결제를 처리하기 위해 인터넷을 사용합니다. 게임 플레이 자체는 여전히 오프라인에서 동작하며, 연결이 없으면 광고와 상점만 동작하지 않습니다.</p>
+  <p>버전 1.3.0부터 광고를 받아 오고 결제를 처리하기 위해, 버전 1.5.0부터는 익명 이용 통계를 보내기 위해서도 인터넷을 사용합니다. 게임 플레이 자체는 여전히 오프라인에서 동작하며, 연결이 없으면 광고와 상점만 동작하지 않습니다.</p>
   <p>Android 릴리스 빌드가 선언하는 권한은 다음과 같습니다. 모두 광고·결제 SDK가 요구하는 것이며, 별도 동의를 묻는 위험 권한(카메라·위치·연락처·저장소 등)은 없습니다.</p>
   <ul>
     <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — 광고 요청과 결제 통신</li>
@@ -147,7 +158,7 @@
   <p>환불은 각 스토어의 정책과 절차를 따릅니다. <a href="https://support.apple.com/ko-kr/118223" target="_blank" rel="noopener">Apple 환불 요청</a> · <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play 환불 요청</a></p>
 
   <h2>6. 아동의 개인정보</h2>
-  <p>본 게임은 만 13세 미만(EEA 기준 만 16세 미만) 아동을 대상으로 하지 않으며, App Store 12+ / Google Play 13세 이상 등급으로 제공됩니다. 개발자는 아동을 포함한 어떠한 이용자로부터도 개인정보를 직접 수집하지 않습니다.</p>
+  <p>본 게임은 만 13세 미만(EEA 기준 만 16세 미만) 아동을 대상으로 하지 않으며, App Store 12+ / Google Play 13세 이상 등급으로 제공됩니다. 개발자는 아동을 포함한 어떠한 이용자로부터도 이름·연락처 등 식별 가능한 개인정보를 수집하지 않으며, 1절의 익명 이용 통계는 프로필 작성이나 맞춤 광고에 쓰이지 않습니다.</p>
   <p>보호자께서 자녀가 광고를 보거나 결제하는 것을 제한하려면 기기의 스크린 타임(iOS) 또는 Google Play 구매 승인 설정을 이용해 주시기 바랍니다.</p>
 
   <h2>7. 데이터 보관 및 삭제</h2>
@@ -156,15 +167,15 @@
     <li><strong>Android</strong> — 설정 &gt; 애플리케이션 &gt; 삼국.io &gt; 저장공간 &gt; 데이터 삭제, 또는 앱 삭제</li>
     <li><strong>iOS</strong> — 홈 화면에서 앱을 길게 눌러 삭제(앱과 함께 데이터가 제거됩니다)</li>
   </ul>
-  <p>개발자 측에는 별도의 사본이 존재하지 않습니다. 광고 목적으로 Google이 처리한 정보의 보관 기간과 삭제는 Google의 방침을 따르며, 광고 ID를 삭제하면 그 이후의 연결이 끊어집니다.</p>
+  <p>세이브 데이터의 사본은 개발자 측에 존재하지 않습니다. 익명 이용 통계는 Google Analytics에 최대 14개월 보관된 뒤 삭제되며, 앱을 삭제하면 앱 인스턴스 ID가 폐기되어 이후의 데이터와 이어지지 않습니다. 광고 목적으로 Google이 처리한 정보의 보관 기간과 삭제는 Google의 방침을 따르며, 광고 ID를 삭제하면 그 이후의 연결이 끊어집니다.</p>
 
   <h2>8. 이용자의 권리</h2>
-  <p>개발자가 보유한 개인정보가 없으므로 개발자에게 열람·정정·삭제·이동을 요청할 대상 정보가 없습니다. 광고 목적으로 처리된 정보에 대한 권리는 4절의 맞춤 광고 해제 방법과 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 개인정보처리방침</a>을 통해 행사하실 수 있습니다.</p>
+  <p>개발자는 이용자를 식별할 수 있는 정보를 보유하지 않습니다. 익명 이용 통계는 무작위 앱 인스턴스 ID에만 연결되어 있어 개발자가 특정인의 기록을 찾아낼 수 없지만, 삭제를 원하시면 아래 연락처로 문의해 주시기 바랍니다. 광고 목적으로 처리된 정보에 대한 권리는 4절의 맞춤 광고 해제 방법과 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 개인정보처리방침</a>을 통해 행사하실 수 있습니다.</p>
   <p>본 방침에 관한 질의는 언제든지 아래 연락처로 보내실 수 있습니다.</p>
 
   <h2>9. 방침의 변경</h2>
   <p>데이터 처리 방식이 변경될 경우 본 방침을 개정하고 최종 수정일을 갱신하며, 앱 업데이트 및 스토어 등재정보를 통해 고지합니다. 변경 이전 버전의 앱에는 소급 적용되지 않습니다.</p>
-  <p><strong>변경 이력</strong> — 2026-09-07: 버전 1.3.0에 광고(AdMob)와 인앱결제가 도입되어 1·3·4·5절을 신설·개정했습니다. 2026-08-24: 최초 작성.</p>
+  <p><strong>변경 이력</strong> — 2026-09-19: 버전 1.5.0에 익명 이용 통계(Google Analytics for Firebase)가 도입되어 요약과 1·2·3·6·7·8절을 개정했습니다. 2026-09-07: 버전 1.3.0에 광고(AdMob)와 인앱결제가 도입되어 1·3·4·5절을 신설·개정했습니다. 2026-08-24: 최초 작성.</p>
 
   <h2>10. 문의</h2>
   <p>개인정보처리방침에 관한 문의: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
@@ -181,11 +192,13 @@
   </div>
 
   <h2>Summary</h2>
-  <p><strong>The developer does not collect any personal data directly.</strong> There is no account, no developer-operated server, and your gameplay data stays on your device.</p>
+  <p><strong>The developer does not collect personal data that identifies you, such as your name, email address, or contacts.</strong> There is no account, no developer-operated server, and your save data stays on your device.</p>
   <p>As of version 1.3.0, however, the game includes <strong>advertising (Google AdMob) and in-app purchases</strong>. Serving ads involves Google processing an advertising identifier and device information, and payments are handled by Apple or Google. See sections 4 and 5.</p>
 
+  <p>From version 1.5.0 the game also collects <strong>anonymous usage statistics (Google Analytics for Firebase)</strong> to tune game balance. They are tied only to a random app instance ID, never to a name or account. See section 1.</p>
+
   <h2>1. Personal data we collect</h2>
-  <p>The developer collects no personal data — no name, email address, phone number, contacts, photos, or usage history. There is no sign-up or login, no screen asks you to enter personal information, and there is no developer-operated server that receives data.</p>
+  <p>The developer collects no personal data — no name, email address, phone number, contacts, photos, or call history. There is no sign-up or login, no screen asks you to enter personal information, and there is no developer-operated server that receives data.</p>
   <p>The following is instead processed for advertising purposes <strong>by a third party (Google)</strong>. It is not passed to the developer individually; the developer sees only aggregated ad performance statistics.</p>
   <ul>
     <li><strong>Advertising identifier</strong> — the Android Advertising ID (AAID). On iOS the game does not request tracking permission, so the IDFA is not used.</li>
@@ -193,6 +206,15 @@
     <li><strong>Coarse location</strong> — country/city level, inferred from the IP address. Precise location permission is never requested.</li>
     <li><strong>Ad interaction records</strong> — impressions, clicks, and whether a rewarded ad was watched to completion</li>
   </ul>
+
+  <p><strong>Anonymous usage statistics (from version 1.5.0)</strong> — To tune difficulty and rewards, the information below is collected through <strong>Google Analytics for Firebase</strong>. It is tied only to a randomly generated app instance ID and never to a name, email address, or account, so the developer cannot tell who an individual player is. The developer does not sell these statistics or use them for personalized advertising.</p>
+  <ul>
+    <li><strong>Gameplay events</strong> — battles started, wins and losses, battle length, defeats dealt, chosen general and battlefield, quits and retries, and continue choices</li>
+    <li><strong>Progress summary</strong> — number of regions retaken, unification count, number of unlocked generals, training level, and a range of battles played</li>
+    <li><strong>Shop and ad usage</strong> — shop visits, whether a purchase was started, completed, or canceled (no payment details), and whether an ad was watched to the end</li>
+    <li><strong>Device and app information</strong> — device model, OS version, language and region settings, app version, approximate region inferred from IP address, and the app instance ID. On Android the advertising ID may be processed as well.</li>
+  </ul>
+  <p>For how Google handles this data, see <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy and Security in Firebase</a>.</p>
 
   <h2>2. Data stored on your device</h2>
   <p>The following is written only to the app's private storage area on your device and is never sent to the developer.</p>
@@ -203,10 +225,10 @@
     <li>Sound, control, and other game settings</li>
     <li>Wonbo balance, entitlements you have purchased (such as ad removal), and a session counter used to space out interstitial ads</li>
   </ul>
-  <p>No third party, including the developer, can access this data, and it cannot be used to identify you.</p>
+  <p>This saved data itself is never sent off your device and cannot be used to identify you. The anonymous usage statistics in section 1 do, however, include summary figures of your progress (such as the number of regions retaken).</p>
 
   <h2>3. Network access and permissions</h2>
-  <p>From version 1.3.0 the game uses the internet to fetch ads and process purchases. Gameplay itself still runs offline; without a connection only ads and the shop stop working.</p>
+  <p>From version 1.3.0 the game uses the internet to fetch ads and process purchases and, from version 1.5.0, to send anonymous usage statistics. Gameplay itself still runs offline; without a connection only ads and the shop stop working.</p>
   <p>The Android release build declares the permissions below. All of them are required by the advertising and billing SDKs, and none are runtime-prompted sensitive permissions (camera, location, contacts, storage).</p>
   <ul>
     <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — ad requests and billing traffic</li>
@@ -237,7 +259,7 @@
   <p>Refunds follow each store's own policy. <a href="https://support.apple.com/en-us/118223" target="_blank" rel="noopener">Request a refund from Apple</a> · <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Request a refund from Google Play</a></p>
 
   <h2>6. Children's privacy</h2>
-  <p>The game is not directed at children under 13 (under 16 in the EEA) and is rated 12+ on the App Store and 13+ on Google Play. The developer collects no personal data directly from any user, including children.</p>
+  <p>The game is not directed at children under 13 (under 16 in the EEA) and is rated 12+ on the App Store and 13+ on Google Play. The developer collects no identifying personal data, such as names or contact details, from any user, including children, and the anonymous usage statistics in section 1 are not used for profiling or personalized advertising.</p>
   <p>Parents who wish to limit ads or purchases can use Screen Time on iOS or purchase-approval settings in Google Play.</p>
 
   <h2>7. Data retention and deletion</h2>
@@ -246,15 +268,15 @@
     <li><strong>Android</strong> — Settings &gt; Apps &gt; samguk.io &gt; Storage &gt; Clear data, or uninstall the app</li>
     <li><strong>iOS</strong> — press and hold the app icon and delete it (the data is removed with the app)</li>
   </ul>
-  <p>The developer holds no separate copy. Retention and deletion of data processed by Google for advertising follow Google's own policies; deleting your advertising ID severs the link from that point on.</p>
+  <p>The developer holds no copy of your save data. Anonymous usage statistics are kept in Google Analytics for up to 14 months and then deleted; deleting the app discards the app instance ID, so later data is no longer linked to it. Retention and deletion of data processed by Google for advertising follow Google's own policies; deleting your advertising ID severs the link from that point on.</p>
 
   <h2>8. Your rights</h2>
-  <p>Because the developer holds no personal data, there is nothing held by the developer to access, correct, delete, or port. Rights over data processed for advertising can be exercised through the opt-out steps in section 4 and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+  <p>The developer holds no information that identifies you. Anonymous usage statistics are tied only to a random app instance ID, so the developer cannot look up a specific person's records, but you may contact us at the address below to request deletion. Rights over data processed for advertising can be exercised through the opt-out steps in section 4 and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
   <p>Questions about this policy are always welcome at the address below.</p>
 
   <h2>9. Changes to this policy</h2>
   <p>If our data practices change, we will revise this policy, update the "last updated" date, and give notice through app updates and the store listings. Changes do not apply retroactively to earlier versions of the app.</p>
-  <p><strong>Revision history</strong> — 2026-09-07: version 1.3.0 introduced advertising (AdMob) and in-app purchases; sections 1, 3, 4, and 5 were added or rewritten. 2026-08-24: first published.</p>
+  <p><strong>Revision history</strong> — 2026-09-19: version 1.5.0 introduced anonymous usage statistics (Google Analytics for Firebase); the summary and sections 1, 2, 3, 6, 7, and 8 were revised. 2026-09-07: version 1.3.0 introduced advertising (AdMob) and in-app purchases; sections 1, 3, 4, and 5 were added or rewritten. 2026-08-24: first published.</p>
 
   <h2>10. Contact</h2>
   <p>Questions about this privacy policy: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
@@ -271,8 +293,10 @@
   </div>
 
   <h2>概要</h2>
-  <p><strong>開発者が利用者の個人情報を直接収集することはありません。</strong>アカウント登録はなく、開発者が運用するサーバーも存在せず、ゲームの進行データは端末内にのみ保存されます。</p>
+  <p><strong>開発者は、氏名・メールアドレス・連絡先など利用者を特定できる個人情報を収集しません。</strong>アカウント登録はなく、開発者が運用するサーバーも存在せず、セーブデータは端末内にのみ保存されます。</p>
   <p>ただしバージョン 1.3.0 より<strong>広告(Google AdMob)とアプリ内課金</strong>が含まれます。広告の配信にあたって Google が広告識別子と端末情報を処理し、決済は Apple または Google が処理します。詳細は 4 節・5 節をご覧ください。</p>
+
+  <p>バージョン 1.5.0 より、ゲームバランス調整のために<strong>匿名の利用統計(Google Analytics for Firebase)</strong>を収集します。ランダムなアプリインスタンス ID にのみ紐付けられ、氏名やアカウントとは紐付きません。詳細は 1 節をご覧ください。</p>
 
   <h2>1. 収集する個人情報</h2>
   <p>開発者は氏名、メールアドレス、電話番号、連絡先、写真、通話履歴などの個人情報を一切収集しません。会員登録・ログインの手続きはなく、個人情報の入力を求める画面もなく、開発者が運用する収集サーバーも存在しません。</p>
@@ -284,6 +308,15 @@
     <li><strong>広告の操作記録</strong> — 表示・クリック・リワード広告の視聴完了の有無</li>
   </ul>
 
+  <p><strong>匿名の利用統計(バージョン 1.5.0 より)</strong> — 難易度と報酬を調整するため、以下の情報が <strong>Google Analytics for Firebase</strong> を通じて収集されます。この統計はランダムに生成されたアプリインスタンス ID にのみ紐付けられ、氏名・メールアドレス・アカウントとは紐付かないため、開発者が個々の利用者を特定することはできません。開発者はこの統計を販売せず、パーソナライズド広告にも使用しません。</p>
+  <ul>
+    <li><strong>ゲームイベント</strong> — 出陣・勝敗、1 戦の長さ、撃破数、選んだ武将と戦場、中断・再出陣の有無、コンティニューの選択</li>
+    <li><strong>進行状況の要約</strong> — 奪還した区域数、統一回数、解放した武将数、訓練度、プレイ回数の区分</li>
+    <li><strong>ショップ・広告の利用</strong> — ショップの閲覧、購入の開始・完了・キャンセルの別(決済手段の情報は含みません)、広告を最後まで視聴したか</li>
+    <li><strong>端末およびアプリ情報</strong> — 端末モデル、OS バージョン、言語・地域設定、アプリバージョン、IP アドレスから推定したおおよその地域、アプリインスタンス ID。Android では広告 ID が併せて処理される場合があります。</li>
+  </ul>
+  <p>Google による取り扱いは <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase のプライバシーとセキュリティ</a> をご覧ください。</p>
+
   <h2>2. 端末内に保存される情報</h2>
   <p>以下の情報は端末内のアプリ専用領域にのみ記録され、開発者へ送信されることはありません。</p>
   <ul>
@@ -293,10 +326,10 @@
     <li>サウンド・操作などのゲーム設定</li>
     <li>元宝の残高、購入した権利(広告除去など)、インタースティシャル広告の間隔を数えるセッション回数</li>
   </ul>
-  <p>この情報には開発者を含む第三者がアクセスできず、利用者本人の識別に用いることはできません。</p>
+  <p>この保存データ自体が端末の外へ送信されることはなく、利用者本人の識別に用いることはできません。ただし 1 節の匿名の利用統計には、進行状況を要約した数値(奪還した区域数など)が含まれます。</p>
 
   <h2>3. ネットワークと権限</h2>
-  <p>バージョン 1.3.0 より、広告の取得と決済のためにインターネットを使用します。ゲームプレイ自体は引き続きオフラインで動作し、接続がない場合は広告とショップのみが動作しません。</p>
+  <p>バージョン 1.3.0 より、広告の取得と決済のために、またバージョン 1.5.0 からは匿名の利用統計を送信するためにインターネットを使用します。ゲームプレイ自体は引き続きオフラインで動作し、接続がない場合は広告とショップのみが動作しません。</p>
   <p>Android リリースビルドが宣言する権限は次のとおりです。いずれも広告・課金 SDK が必要とするもので、個別の同意を求める危険権限(カメラ・位置情報・連絡先・ストレージ等)はありません。</p>
   <ul>
     <li><code>INTERNET</code>、<code>ACCESS_NETWORK_STATE</code> — 広告リクエストと決済通信</li>
@@ -327,7 +360,7 @@
   <p>返金は各ストアの方針と手続きに従います。<a href="https://support.apple.com/ja-jp/118223" target="_blank" rel="noopener">Apple への返金リクエスト</a> · <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play への返金リクエスト</a></p>
 
   <h2>6. 子どものプライバシー</h2>
-  <p>本ゲームは 13 歳未満(EEA では 16 歳未満)の子どもを対象としておらず、App Store 12+ / Google Play 13 歳以上のレーティングで提供されます。開発者は子どもを含むいかなる利用者からも個人情報を直接収集しません。</p>
+  <p>本ゲームは 13 歳未満(EEA では 16 歳未満)の子どもを対象としておらず、App Store 12+ / Google Play 13 歳以上のレーティングで提供されます。開発者は子どもを含むいかなる利用者からも氏名・連絡先など本人を特定できる個人情報を収集せず、1 節の匿名の利用統計をプロファイリングやパーソナライズド広告に用いることはありません。</p>
   <p>保護者の方がお子さまの広告視聴や課金を制限する場合は、iOS のスクリーンタイムまたは Google Play の購入承認設定をご利用ください。</p>
 
   <h2>7. データの保管と削除</h2>
@@ -336,15 +369,15 @@
     <li><strong>Android</strong> — 設定 &gt; アプリ &gt; 三国.io &gt; ストレージ &gt; データを削除、またはアプリのアンインストール</li>
     <li><strong>iOS</strong> — ホーム画面でアプリを長押しして削除(アプリとともにデータも削除されます)</li>
   </ul>
-  <p>開発者側に別途の複製は存在しません。広告目的で Google が処理した情報の保管期間と削除は Google の方針に従い、広告 ID を削除すればそれ以降の紐付けは解除されます。</p>
+  <p>セーブデータの複製は開発者側に存在しません。匿名の利用統計は Google Analytics に最長 14 か月保管された後に削除され、アプリを削除するとアプリインスタンス ID が破棄されるため、以降のデータとは紐付きません。広告目的で Google が処理した情報の保管期間と削除は Google の方針に従い、広告 ID を削除すればそれ以降の紐付けは解除されます。</p>
 
   <h2>8. 利用者の権利</h2>
-  <p>開発者が保有する個人情報はないため、開発者に対して開示・訂正・削除・移転を請求する対象の情報はありません。広告目的で処理された情報に関する権利は、4 節のオプトアウト手順および <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a> を通じて行使できます。</p>
+  <p>開発者は利用者を特定できる情報を保有していません。匿名の利用統計はランダムなアプリインスタンス ID にのみ紐付いているため、開発者が特定の方の記録を探し出すことはできませんが、削除をご希望の場合は下記の連絡先までお問い合わせください。広告目的で処理された情報に関する権利は、4 節のオプトアウト手順および <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a> を通じて行使できます。</p>
   <p>本方針に関するお問い合わせは、いつでも下記の連絡先までお寄せください。</p>
 
   <h2>9. 方針の変更</h2>
   <p>データの取り扱いが変更される場合は本方針を改定し、最終更新日を更新のうえ、アプリの更新およびストア掲載情報を通じて告知します。変更前のバージョンのアプリに遡及して適用されることはありません。</p>
-  <p><strong>改定履歴</strong> — 2026-09-07: バージョン 1.3.0 で広告(AdMob)とアプリ内課金を導入したため、1・3・4・5 節を新設・改定。2026-08-24: 初版。</p>
+  <p><strong>改定履歴</strong> — 2026-09-19: バージョン 1.5.0 で匿名の利用統計(Google Analytics for Firebase)を導入したため、概要と 1・2・3・6・7・8 節を改定。2026-09-07: バージョン 1.3.0 で広告(AdMob)とアプリ内課金を導入したため、1・3・4・5 節を新設・改定。2026-08-24: 初版。</p>
 
   <h2>10. お問い合わせ</h2>
   <p>プライバシーポリシーに関するお問い合わせ: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
@@ -361,8 +394,10 @@
   </div>
 
   <h2>摘要</h2>
-  <p><strong>開發者不會直接蒐集使用者的個人資料。</strong>本遊戲沒有帳號註冊，沒有開發者營運的伺服器，遊戲進度資料僅保存在您的裝置中。</p>
+  <p><strong>開發者不會蒐集姓名、電子郵件、通訊錄等可識別您身分的個人資料。</strong>本遊戲沒有帳號註冊，沒有開發者營運的伺服器，存檔資料僅保存在您的裝置中。</p>
   <p>但自 1.3.0 版起，本遊戲包含<strong>廣告(Google AdMob)與應用程式內購買</strong>。放送廣告的過程中，Google 會處理廣告識別碼與裝置資訊；付款則由 Apple 或 Google 處理。詳見第 4 節與第 5 節。</p>
+
+  <p>自 1.5.0 版起，為調整遊戲平衡，本遊戲會蒐集<strong>匿名使用統計(Google Analytics for Firebase)</strong>。這些統計僅與隨機產生的應用程式執行個體 ID 連結，不與姓名或帳號連結。詳見第 1 節。</p>
 
   <h2>1. 我們蒐集的個人資料</h2>
   <p>開發者不蒐集姓名、電子郵件、電話號碼、通訊錄、照片、通話紀錄等任何個人資料。本遊戲沒有註冊或登入流程，沒有任何畫面要求您輸入個人資料，也沒有開發者營運的蒐集伺服器。</p>
@@ -374,6 +409,15 @@
     <li><strong>廣告互動紀錄</strong> — 曝光、點擊，以及獎勵廣告是否觀看完畢</li>
   </ul>
 
+  <p><strong>匿名使用統計(自 1.5.0 版起)</strong> — 為調整難度與獎勵，下列資料會透過 <strong>Google Analytics for Firebase</strong> 蒐集。這些統計僅與隨機產生的應用程式執行個體 ID 連結，不與姓名、電子郵件或帳號連結，因此開發者無法得知個別使用者是誰。開發者不會出售這些統計，也不會將其用於個人化廣告。</p>
+  <ul>
+    <li><strong>遊戲事件</strong> — 出戰與勝負、單場時間、擊破數、選擇的武將與戰場、是否中途放棄或再次出戰、續戰選擇</li>
+    <li><strong>進度摘要</strong> — 已奪回的區域數、統一次數、已解鎖武將數、訓練度、遊玩場數區間</li>
+    <li><strong>商店與廣告使用情形</strong> — 是否開啟商店、購買的開始、完成或取消(不含付款方式資訊)、是否看完廣告</li>
+    <li><strong>裝置與應用程式資訊</strong> — 裝置型號、作業系統版本、語言與地區設定、應用程式版本、由 IP 位址推估的大略地區、應用程式執行個體 ID。在 Android 上可能一併處理廣告 ID。</li>
+  </ul>
+  <p>Google 的處理方式請參閱 <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase 的隱私權與安全性</a>。</p>
+
   <h2>2. 儲存於裝置中的資料</h2>
   <p>下列資料僅寫入裝置上本應用程式的私有儲存區，不會傳送給開發者。</p>
   <ul>
@@ -383,10 +427,10 @@
     <li>音效、操作等遊戲設定</li>
     <li>元寶餘額、已購買的權利(如移除廣告)，以及用於計算插頁廣告間隔的場次計數</li>
   </ul>
-  <p>包含開發者在內的第三方均無法存取這些資料，這些資料也無法用於識別您本人。</p>
+  <p>這些存檔資料本身不會傳送到裝置之外，也無法用於識別您本人。但第 1 節的匿名使用統計會包含進度的摘要數值(例如已奪回的區域數)。</p>
 
   <h2>3. 網路與權限</h2>
-  <p>自 1.3.0 版起，本遊戲會使用網路以取得廣告並處理付款。遊戲本身仍可離線運作，沒有連線時只有廣告與商店無法運作。</p>
+  <p>自 1.3.0 版起，本遊戲會使用網路以取得廣告並處理付款；自 1.5.0 版起，也會用於傳送匿名使用統計。遊戲本身仍可離線運作，沒有連線時只有廣告與商店無法運作。</p>
   <p>Android 發行版本宣告的權限如下。這些權限皆為廣告與付款 SDK 所需，並不包含需另行授權的敏感權限(相機、位置、通訊錄、儲存空間等)。</p>
   <ul>
     <li><code>INTERNET</code>、<code>ACCESS_NETWORK_STATE</code> — 廣告請求與付款通訊</li>
@@ -417,7 +461,7 @@
   <p>退款依各商店的政策與流程辦理。<a href="https://support.apple.com/zh-tw/118223" target="_blank" rel="noopener">向 Apple 申請退款</a> · <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">向 Google Play 申請退款</a></p>
 
   <h2>6. 兒童隱私</h2>
-  <p>本遊戲並非以未滿 13 歲(歐洲經濟區為未滿 16 歲)的兒童為對象，於 App Store 分級為 12+，於 Google Play 分級為 13 歲以上。開發者不會直接向包含兒童在內的任何使用者蒐集個人資料。</p>
+  <p>本遊戲並非以未滿 13 歲(歐洲經濟區為未滿 16 歲)的兒童為對象，於 App Store 分級為 12+，於 Google Play 分級為 13 歲以上。開發者不會向包含兒童在內的任何使用者蒐集姓名、聯絡方式等可識別身分的個人資料，第 1 節的匿名使用統計也不會用於建立個人檔案或個人化廣告。</p>
   <p>家長若希望限制孩子觀看廣告或進行購買，可使用 iOS 的螢幕使用時間或 Google Play 的購買核准設定。</p>
 
   <h2>7. 資料保存與刪除</h2>
@@ -426,15 +470,15 @@
     <li><strong>Android</strong> — 設定 &gt; 應用程式 &gt; 三國.io &gt; 儲存空間 &gt; 清除資料，或解除安裝應用程式</li>
     <li><strong>iOS</strong> — 在主畫面長按應用程式並刪除(資料會隨應用程式一併移除)</li>
   </ul>
-  <p>開發者不持有任何副本。Google 為廣告目的所處理資料的保存期限與刪除方式，依 Google 自身政策辦理；刪除廣告 ID 後，其後的關聯即中斷。</p>
+  <p>開發者不持有存檔資料的任何副本。匿名使用統計於 Google Analytics 最長保存 14 個月後刪除；刪除應用程式後，應用程式執行個體 ID 即失效，其後的資料不再與之連結。Google 為廣告目的所處理資料的保存期限與刪除方式，依 Google 自身政策辦理；刪除廣告 ID 後，其後的關聯即中斷。</p>
 
   <h2>8. 您的權利</h2>
-  <p>由於開發者未持有任何個人資料，因此沒有可向開發者請求查閱、更正、刪除或攜出的資料。針對為廣告目的處理的資料，您可透過第 4 節的退出方式以及 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 隱私權政策</a> 行使權利。</p>
+  <p>開發者未持有任何可識別您身分的資料。匿名使用統計僅與隨機的應用程式執行個體 ID 連結，開發者無法找出特定個人的紀錄；如需刪除，請透過下方聯絡方式與我們聯繫。針對為廣告目的處理的資料，您可透過第 4 節的退出方式以及 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 隱私權政策</a> 行使權利。</p>
   <p>關於本政策的任何疑問，歡迎隨時透過下方聯絡方式來信。</p>
 
   <h2>9. 政策變更</h2>
   <p>若資料處理方式有所變更，我們將修訂本政策、更新最後修改日期，並透過應用程式更新與商店資訊公告。變更不會溯及適用於先前版本的應用程式。</p>
-  <p><strong>修訂紀錄</strong> — 2026-09-07：1.3.0 版導入廣告(AdMob)與應用程式內購買，新增並改寫第 1、3、4、5 節。2026-08-24：首次發布。</p>
+  <p><strong>修訂紀錄</strong> — 2026-09-19：1.5.0 版導入匿名使用統計(Google Analytics for Firebase)，改寫摘要與第 1、2、3、6、7、8 節。2026-09-07：1.3.0 版導入廣告(AdMob)與應用程式內購買，新增並改寫第 1、3、4、5 節。2026-08-24：首次發布。</p>
 
   <h2>10. 聯絡我們</h2>
   <p>關於本隱私權政策的洽詢：<a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a></p>
